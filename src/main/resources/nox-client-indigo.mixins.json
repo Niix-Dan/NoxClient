@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.noxclient.mixin.indigo",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.noxclient.MixinPlugin",
+  "client": [
+    "AbstractQuadRendererMixin",
+    "TerrainRenderContextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

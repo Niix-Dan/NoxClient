@@ -1,0 +1,16 @@
+/*
+ * This file is part of the Nox Client.
+ * Made by Niix#8237
+ */
+
+package com.noxclient.mixin;
+
+import net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.gen.Accessor;
+
+@Mixin(CloseHandledScreenC2SPacket.class)
+public interface CloseHandledScreenC2SPacketAccessor {
+    @Accessor("syncId")
+    int getSyncId();
+}

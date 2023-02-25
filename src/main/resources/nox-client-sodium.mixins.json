@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "package": "com.noxclient.mixin.sodium",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.noxclient.MixinPlugin",
+  "client": [
+    "LightDataAccessMixin",
+    "SodiumBlockOcculsionCacheMixin",
+    "SodiumBlockRendererMixin",
+    "SodiumFluidRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
